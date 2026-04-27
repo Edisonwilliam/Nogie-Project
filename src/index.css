@@ -9,8 +9,8 @@
   --text-secondary: #a0a0a0;
   --text-tertiary: #666666;
   
-  --accent-main: #6366f1; /* Indigo */
-  --accent-glow: rgba(99, 102, 241, 0.2);
+  --accent-main: #ff3333; /* Red */
+  --accent-glow: rgba(255, 51, 51, 0.2);
   
   --border-color: rgba(255, 255, 255, 0.08);
   

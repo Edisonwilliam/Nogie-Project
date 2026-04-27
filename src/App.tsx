@@ -21,9 +21,9 @@ function App() {
       <nav className="navbar glass">
         <div className="container flex-between">
           <a href="#" className="heading-md" style={{ fontSize: '1.25rem', fontFamily: 'var(--font-mono)' }}>
-            Nogie<span className="text-accent">.</span>
+            Nogie Solomon<span className="text-accent">.</span>
           </a>
-          
+
           <div className="nav-links">
             <a href="#about" className="nav-link">About</a>
             <a href="#services" className="nav-link">Services</a>
@@ -50,7 +50,7 @@ function App() {
         <section className="hero">
           <div className="hero-glow"></div>
           <div className="container">
-            <motion.div 
+            <motion.div
               className="hero-content"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -64,9 +64,9 @@ function App() {
               <p className="hero-description">
                 With close to a decade of hands-on experience, I deliver impactful visual solutions across diverse sectors—creating designs that not only look visually appealing but also communicate clearly and elevate brand identity.
               </p>
-              
-              <motion.a 
-                href="#contact" 
+
+              <motion.a
+                href="#contact"
                 className="btn btn-primary"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -83,9 +83,9 @@ function App() {
             <span className="section-label">01. About Me</span>
             <h2 className="heading-lg">Designing with Purpose</h2>
           </div>
-          
+
           <div className="grid about-grid">
-            <motion.div 
+            <motion.div
               className="about-text"
               initial="initial"
               whileInView="animate"
@@ -100,7 +100,7 @@ function App() {
               </motion.p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="about-image glass"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -119,7 +119,7 @@ function App() {
             <h2 className="heading-lg">My Services</h2>
           </div>
 
-          <motion.div 
+          <motion.div
             className="grid projects-grid"
             initial="initial"
             whileInView="animate"
@@ -174,7 +174,7 @@ function App() {
             </p>
           </div>
 
-          <motion.div 
+          <motion.div
             className="gallery-grid"
             initial="initial"
             whileInView="animate"
@@ -218,7 +218,7 @@ function App() {
 
         {/* Contact Section */}
         <section id="contact" className="container">
-          <motion.div 
+          <motion.div
             className="glass"
             style={{ padding: '4rem', borderRadius: '24px', textAlign: 'center', position: 'relative', overflow: 'hidden' }}
             initial={{ opacity: 0, y: 40 }}
@@ -230,7 +230,7 @@ function App() {
             <p className="about-text" style={{ maxWidth: '600px', margin: '0 auto 3rem auto' }}>
               I am available for freelance projects, collaborations, and creative partnerships. Let's bring your ideas to life with creativity and precision.
             </p>
-            
+
             <div className="flex-center" style={{ gap: '1.5rem', flexWrap: 'wrap' }}>
               <a href="https://wa.me/2349020115942" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ marginTop: 0 }}>
                 <MessageCircle size={20} /> WhatsApp Me
